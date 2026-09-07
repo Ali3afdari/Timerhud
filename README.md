@@ -3,14 +3,14 @@ A lightweight, click-through, always-on-top timer overlay for Linux desktops. Sp
 
 ✨ Features
 
-    🖥️ True Overlay: Frameless, transparent background, text-only display. Completely click-through (does not block mouse input).
-    📍 Corner Snapping: Automatically snaps to the Top-Left, Top-Right, Bottom-Left, or Bottom-Right of your primary screen.
-    ⏱️ Flexible Timer: Set a countdown in minutes, or use the default "Count Up" mode.
-    🚨 Finished Alert: When a countdown reaches 00:00:00, it switches to count-up and flashes Red / White to alert you.
-    🎨 Customizable Text: Choose between Always White or Always Black text for optimal contrast.
-    📺 Fullscreen Bypass: Uses KWin/X11 specific window hints (_KDE_NET_WM_WINDOW_TYPE_ON_SCREEN_DISPLAY, _NET_WM_STATE_ABOVE) to stay on top of exclusive fullscreen apps.
-    ⚙️ GUI Settings: Easy configuration via the system tray icon. Settings are saved automatically.
-    ⌨️ Global Kill Switch: Instantly close the app from anywhere with Ctrl+Alt+T.
+ 🖥️ True Overlay: Frameless, transparent background, text-only display. Completely click-through (does not block mouse input).
+ 📍 Corner Snapping: Automatically snaps to the Top-Left, Top-Right, Bottom-Left, or Bottom-Right of your primary screen.
+ ⏱️ Flexible Timer: Set a countdown in minutes, or use the default "Count Up" mode.
+ 🚨 Finished Alert: When a countdown reaches 00:00:00, it switches to count-up and flashes Red / White to alert you.
+ 🎨 Customizable Text: Choose between Always White or Always Black text for optimal contrast.
+ 📺 Fullscreen Bypass: Uses KWin/X11 specific window hints (_KDE_NET_WM_WINDOW_TYPE_ON_SCREEN_DISPLAY, _NET_WM_STATE_ABOVE) to stay on top of exclusive fullscreen apps.
+ ⚙️ GUI Settings: Easy configuration via the system tray icon. Settings are saved automatically.
+ ⌨️ Global Kill Switch: Instantly close the app from anywhere with Ctrl+Alt+T.
 
 🛠️ Requirements & Dependencies
 
@@ -43,20 +43,20 @@ cmake --build build
 
 📸 Usage
 
-    Run the app:
+  Run the app:
 ./build/timer-hud
 Open Settings:
 
-    Right-click the Tray Icon in your system tray and select Settings...
-    OR launch with the settings flag: ./build/timer-hud --settings
+ Right-click the Tray Icon in your system tray and select Settings...
+ OR launch with the settings flag: ./build/timer-hud --settings
 
 Configure:
 
-    Choose your preferred screen corner.
-    Set the duration (in minutes). Set to 0 for an infinite count-up timer.
-    Adjust font size, margin, and text color.
+ Choose your preferred screen corner.
+ Set the duration (in minutes). Set to 0 for an infinite count-up timer.
+Adjust font size, margin, and text color.
 
 Stop the timer:
 
-    Press Ctrl+Alt+T
-    OR right-click the tray icon and select Quit.
+  Press Ctrl+Alt+T
+  OR right-click the tray icon and select Quit.
