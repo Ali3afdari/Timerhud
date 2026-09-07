@@ -33,7 +33,7 @@ sudo dnf install gcc-c++ cmake ninja-build qt6-qtbase-devel libX11-devel
 
 🏗️ Build Instructions
 # Clone the repository
-git clone https://github.com/yourusername/timer-hud.git
+git clone https://github.com/Ali3afdari/Timerhud.git
 cd timer-hud
 
 # Configure and build
