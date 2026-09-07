@@ -37,6 +37,7 @@ git clone https://github.com/yourusername/timer-hud.git
 cd timer-hud
 
 # Configure and build
+
 cmake -B build -S . -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 
